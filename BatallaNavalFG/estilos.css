@@ -1,0 +1,23 @@
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            gap: 2px;
+            width: 400px;
+            height: 400px;
+        }
+        .cell {
+            width: 100%;
+            position: relative;
+        }
+        .cell-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: navy;
+            border: 1px solid #000;
+            border-radius: 15%;
+        }
